@@ -1,0 +1,4 @@
+export function logEvent(action, details) {
+  const timestamp = new Date().toLocaleString();
+  console.log('[${timestamp}] ${action}:', details);
+}
